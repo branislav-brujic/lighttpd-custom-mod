@@ -1,0 +1,17 @@
+#################################
+Author: Branislav Brujic - Bug
+Email: branislav.brujic@gmail.com
+Date: Jan 12, 2013
+##################################
+
+
+In lighttpd config 
+
+module name "mod_protect_download"
+Helper script premissions need to be 0644 and execute
+
+ALSO need to have this options
+protect-download.server-ip = ' '
+protect-download.server-port = ' '
+protect-download.deny-url  = ' ' 
+protect-download.debug = 'enable'
