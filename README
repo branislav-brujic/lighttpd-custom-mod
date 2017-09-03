@@ -4,6 +4,10 @@ Date: Jan 12, 2013
 ##################################
 
 
+Small module for Lighttpd created in C with memcache module,
+main purpose was to block streaming video files for unathorized IP addresses
+
+
 In lighttpd config 
 
 module name "mod_protect_download"
